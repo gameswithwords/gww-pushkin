@@ -1,0 +1,47 @@
+experimentsDir: experiments
+coreDir: pushkin
+DockerHubID: cherriechang
+databases:
+  localtestdb:
+    user: postgres
+    pass: 6e732945cd56aa613b4ac53b89eca0b1
+    url: localhost
+    port: '5432'
+    name: test_db
+  localtransactiondb:
+    user: postgres
+    pass: a351439434fac3355f2e8a3b5399362b
+    url: localhost
+    port: '5433'
+    name: test_transaction_db
+info:
+  rootDomain: gww.cherriechang.com
+  whoAmI: Games With Words
+  hashtags: language, cognition, linguistics
+  email: info@gameswithwords.org
+  shortName: GWW
+  projName: gww-test
+  awsName: gwwtest629461e6-99b9-4fba-b0bb-954a28343f16
+addons:
+  useForum: false
+  useAuth: false
+salt: uncuredsalami
+fc:
+  popup: false
+productionDBs:
+  Transaction:
+    type: Transaction
+    name: gwwtestTransaction
+    host: gwwtesttransaction.c69a0wkg8vbj.us-east-1.rds.amazonaws.com
+    url: gwwtesttransaction.c69a0wkg8vbj.us-east-1.rds.amazonaws.com
+    user: postgres
+    pass: LEh(5fhl2)CI
+    port: 5432
+  Main:
+    type: Main
+    name: gwwtestMain
+    host: gwwtestmain.c69a0wkg8vbj.us-east-1.rds.amazonaws.com
+    url: gwwtestmain.c69a0wkg8vbj.us-east-1.rds.amazonaws.com
+    user: postgres
+    pass: '&0XuXu6L86sa'
+    port: 5432

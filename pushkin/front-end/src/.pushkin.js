@@ -1,0 +1,1 @@
+export const pushkinConfig = {"info":{"rootDomain":"gww.cherriechang.com","whoAmI":"Games With Words","hashtags":"language, cognition, linguistics","email":"info@gameswithwords.org","shortName":"GWW","projName":"gww-test","awsName":"gwwtest629461e6-99b9-4fba-b0bb-954a28343f16"},"salt":"uncuredsalami","fc":{"popup":false},"addons":{"useForum":false,"useAuth":false}}

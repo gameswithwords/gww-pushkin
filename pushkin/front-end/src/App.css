@@ -1,0 +1,81 @@
+/* Games With Words Global Styles */
+
+/* Import Google Fonts */
+@import url("https://fonts.googleapis.com/css?family=Noticia+Text");
+@import url("https://fonts.googleapis.com/css?family=Ribeye+Marrow");
+
+/* Global styles */
+html {
+  overflow-x: hidden;
+}
+
+body {
+  font-family: 'Noticia Text', serif;
+  font-size: 16px;
+  color: #082046; /* Navy - body text */
+  margin: 0;
+  padding: 0;
+}
+
+/* Background colors - alternating sections */
+.tan {
+  background-color: #ebebe1;
+  border-width: 0px;
+  margin: 0px;
+}
+
+.white {
+  background-color: #ffffff;
+  border-width: 0px;
+  margin: 0px;
+}
+
+/* Layout helpers */
+.display {
+  margin-top: 90px;
+  margin-bottom: 90px;
+}
+
+.textCenter {
+  text-align: center;
+}
+
+.textLeft {
+  text-align: left;
+}
+
+.textJustify {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+/* Typography */
+.title {
+  font-family: 'Noticia Text', serif;
+  font-size: 23px;
+  color: #D19336; /* Orange - titles */
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.blurb {
+  font-family: 'Noticia Text', serif;
+  font-size: 16px;
+  color: #082046; /* Navy - body text */
+  text-align: justify;
+  text-justify: inter-word;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+/* Navigation - uses Ribeye Marrow font */
+.nav {
+  font-family: 'Ribeye Marrow', cursive;
+  background-color: #a9a9a9; /* Gray background */
+}
+
+/* Images and GIFs */
+.gif {
+  display: block;
+  margin: auto;
+}
