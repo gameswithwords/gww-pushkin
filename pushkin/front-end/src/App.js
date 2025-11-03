@@ -26,58 +26,59 @@ import FeedbackPage from "./pages/Feedback";
 function App() {
   return (
     <>
-      <div className="App" style={{ minHeight: "100vh", position: "relative" }}>
+      <div className="App" style={{ minHeight: "100vh", display: "flex", flexDirection: "column" }}>
         <Header />
-        <Switch>
-          <Route exact path="/">
-            <HomePage />
-          </Route>
+        <div style={{ flex: "1" }}>
+          <Switch>
+            <Route exact path="/">
+              <HomePage />
+            </Route>
 
-          <Route path="/index">
-            <HomePage />
-          </Route>
+            <Route path="/index">
+              <HomePage />
+            </Route>
 
-          <Route path="/index.html">
-            <HomePage />
-          </Route>
+            <Route path="/index.html">
+              <HomePage />
+            </Route>
 
-          <Route path="/paths">
-            <PathsPage />
-          </Route>
+            <Route path="/paths">
+              <PathsPage />
+            </Route>
 
-          <Route path="/projects">
-            <ProjectsPage />
-          </Route>
+            <Route path="/projects">
+              <ProjectsPage />
+            </Route>
 
-          <Route exact path="/quizzes">
-            <QuizzesPage />
-          </Route>
+            <Route exact path="/quizzes">
+              <QuizzesPage />
+            </Route>
 
-          <Route path="/archive">
-            <ArchivesPage />
-          </Route>
+            <Route path="/archive">
+              <ArchivesPage />
+            </Route>
 
-          <Route path="/findings">
-            <FindingsPage />
-          </Route>
+            <Route path="/findings">
+              <FindingsPage />
+            </Route>
 
-          <Route path="/about">
-            <AboutPage />
-          </Route>
+            <Route path="/about">
+              <AboutPage />
+            </Route>
 
-          <Route path="/feedback">
-            <FeedbackPage />
-          </Route>
+            <Route path="/feedback">
+              <FeedbackPage />
+            </Route>
 
-          <Route path="/quizzes/:quizName/results">
-            <Results />
-          </Route>
+            <Route path="/quizzes/:quizName/results">
+              <Results />
+            </Route>
 
-          <Route path="/quizzes/:quizName">
-            <TakeQuiz />
-          </Route>
-        </Switch>
-        <div style={{ height: "150px", marginTop: "3rem" }}></div>
+            <Route path="/quizzes/:quizName">
+              <TakeQuiz />
+            </Route>
+          </Switch>
+        </div>
         <Footer />
       </div>
     </>

@@ -59,18 +59,17 @@ function QuizzesPage() {
 								href="http://archive.gameswithwords.org/VocabQuiz"
 								target="_blank"
 								rel="noopener noreferrer">
-								Vocab Quiz
+								The Vocab Quiz
 							</a>
 							<br />
 							How many words do you know? Take the quiz and find out!
 						</p>
 						<hr />
-						<h3 style={{marginTop: "20px", marginBottom: "20px"}}>
-							<a className="title" href="/archive">
+						<p className="blurb" style={{marginTop: "20px"}}>
+							<a className="title" href="/archive" target="_blank" rel="noopener noreferrer">
 								Archives
 							</a>
-						</h3>
-						<p className="blurb">
+							<br />
 							View our collection of closed experiments. While no new data is being collected, you
 							can still run through any of them.
 						</p>
