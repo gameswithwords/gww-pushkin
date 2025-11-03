@@ -20,7 +20,7 @@ info:
   hashtags: language, cognition, linguistics
   email: info@gameswithwords.org
   shortName: GWW
-  projName: gww-test
+  projName: gww-pushkin
   awsName: gwwtest629461e6-99b9-4fba-b0bb-954a28343f16
 addons:
   useForum: false
@@ -31,17 +31,20 @@ fc:
 productionDBs:
   Transaction:
     type: Transaction
-    name: gwwtestTransaction
-    host: gwwtesttransaction.c69a0wkg8vbj.us-east-1.rds.amazonaws.com
-    url: gwwtesttransaction.c69a0wkg8vbj.us-east-1.rds.amazonaws.com
+    name: gwwpushkinTransaction
+    host: gwwpushkintransaction.c69a0wkg8vbj.us-east-1.rds.amazonaws.com
+    url: gwwpushkintransaction.c69a0wkg8vbj.us-east-1.rds.amazonaws.com
     user: postgres
-    pass: LEh(5fhl2)CI
+    pass: f8yLR!6w2$Y%
     port: 5432
   Main:
     type: Main
-    name: gwwtestMain
-    host: gwwtestmain.c69a0wkg8vbj.us-east-1.rds.amazonaws.com
-    url: gwwtestmain.c69a0wkg8vbj.us-east-1.rds.amazonaws.com
+    name: gwwpushkinMain
+    host: gwwpushkinmain.c69a0wkg8vbj.us-east-1.rds.amazonaws.com
+    url: gwwpushkinmain.c69a0wkg8vbj.us-east-1.rds.amazonaws.com
     user: postgres
-    pass: '&0XuXu6L86sa'
+    pass: XO#Q9E+Csmc&
     port: 5432
+rabbitmq:
+  password: a7055edd172c9960d625a549b62c82f1
+  erlangCookie: 0139777c-5b5b-4f17-9f97-c4284230f311

@@ -18,6 +18,7 @@ import HomePage from "./pages/Home";
 import PathsPage from "./pages/Paths";
 import ProjectsPage from "./pages/Projects";
 import QuizzesPage from "./pages/Quizzes";
+import ArchivesPage from "./pages/Archives";
 import FindingsPage from "./pages/Findings";
 import AboutPage from "./pages/About";
 import FeedbackPage from "./pages/Feedback";
@@ -50,6 +51,10 @@ function App() {
 
           <Route exact path="/quizzes">
             <QuizzesPage />
+          </Route>
+
+          <Route path="/archive">
+            <ArchivesPage />
           </Route>
 
           <Route path="/findings">
