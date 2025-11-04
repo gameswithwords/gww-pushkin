@@ -15,36 +15,36 @@ databases:
     port: '5433'
     name: test_transaction_db
 info:
-  rootDomain: gww.cherriechang.com
+  rootDomain: gameswithwords.org
   whoAmI: Games With Words
   hashtags: language, cognition, linguistics
   email: info@gameswithwords.org
   shortName: GWW
   projName: gww-pushkin
-  awsName: gwwtest629461e6-99b9-4fba-b0bb-954a28343f16
+  awsName: gww-prod-gameswithwords
 addons:
   useForum: false
   useAuth: false
 salt: uncuredsalami
 fc:
   popup: false
+rabbitmq:
+  password: a7055edd172c9960d625a549b62c82f1
+  erlangCookie: 0139777c-5b5b-4f17-9f97-c4284230f311
 productionDBs:
   Transaction:
     type: Transaction
     name: gwwpushkinTransaction
-    host: gwwpushkintransaction.c69a0wkg8vbj.us-east-1.rds.amazonaws.com
-    url: gwwpushkintransaction.c69a0wkg8vbj.us-east-1.rds.amazonaws.com
+    host: gwwpushkintransaction.cjto8h4s9y7b.us-east-1.rds.amazonaws.com
+    url: gwwpushkintransaction.cjto8h4s9y7b.us-east-1.rds.amazonaws.com
     user: postgres
-    pass: f8yLR!6w2$Y%
+    pass: J9DO6vwSh^_D
     port: 5432
   Main:
     type: Main
     name: gwwpushkinMain
-    host: gwwpushkinmain.c69a0wkg8vbj.us-east-1.rds.amazonaws.com
-    url: gwwpushkinmain.c69a0wkg8vbj.us-east-1.rds.amazonaws.com
+    host: gwwpushkinmain.cjto8h4s9y7b.us-east-1.rds.amazonaws.com
+    url: gwwpushkinmain.cjto8h4s9y7b.us-east-1.rds.amazonaws.com
     user: postgres
-    pass: XO#Q9E+Csmc&
+    pass: 8uGQqJCry6&z
     port: 5432
-rabbitmq:
-  password: a7055edd172c9960d625a549b62c82f1
-  erlangCookie: 0139777c-5b5b-4f17-9f97-c4284230f311
