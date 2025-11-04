@@ -36,7 +36,7 @@ class Footer extends Component {
 					<Col>
 						<div style={{display: "flex", justifyContent: "center", gap: "15px", flexWrap: "wrap"}}>
 							<a
-								href="https://www.facebook.com/share_channel/"
+								href="https://www.facebook.com/sharer/sharer.php?u=https://www.gameswithwords.org"
 								target="_blank"
 								rel="noopener noreferrer"
 								style={socialIconStyle}>
