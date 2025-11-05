@@ -39,3 +39,7 @@ ECStasks/
 .pushkinKey
 pushkin/front-end/build/
 pushkin/docker-compose.debug.yml
+
+# Claude
+CLAUDE.local.md
+CLAUDE/

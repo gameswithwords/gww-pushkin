@@ -17,7 +17,6 @@ function QuizzesPage() {
 							Want to learn new things about yourself while simultaneously making important
 							contributions to science? Take one of our quizzes below.
 						</p>
-						<hr />
 					</div>
 				</Col>
 			</Row>
