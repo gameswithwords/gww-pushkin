@@ -70,3 +70,17 @@ services:
       interval: 10s
       timeout: 5s
       retries: 5
+  procedural_learning_task_worker:
+    image: procedural_learning_task_worker
+    links:
+      - message-queue
+      - test_db
+      - test_transaction_db
+    environment:
+      AMQP_ADDRESS: amqp://message-queue:5672
+      DB_USER: postgres
+      DB_PASS: 6e732945cd56aa613b4ac53b89eca0b1
+      DB_URL: test_db
+      DB_NAME: test_db
+    labels:
+      isPushkinWorker: true
