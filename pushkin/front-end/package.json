@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "Procedural_Learning_Task_web": "file:.yalc/Procedural_Learning_Task_web",
     "aphrodite": "^2.4.0",
     "axios": "^1.7.7",
     "bootstrap": "^4.3.1",
