@@ -12,11 +12,10 @@ Usage:
 
 import mysql.connector
 import psycopg2
-import psycopg2.extras
 import json
 import argparse
 from datetime import datetime, date, time
-from typing import Dict, List, Any, Tuple
+from typing import Dict, List, Any
 import sys
 
 # Database connection configs
